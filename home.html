@@ -1,0 +1,84 @@
+<!--
+    File: home.html
+    GUI Assignment: Creating your first webpage
+    Robert Feliz, UMass Lowell Computer Science, robert_feliz@student.uml.edu
+    Copyright (c) 2021 by Robert. All rights reserved. May be freely copied or
+    excerpted for educational purposes with credit to the author.
+    created by RF on 09.13.2023
+    --> 
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bobby's Recipe Book</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--Code for the top header section of website-->
+    <header>
+        <h1>Simple Home Recipes</h1>
+        <nav>
+            <!--Creates an unordered list that will act as website navigation-->
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./breakfast.html">Breakfast</a></li>
+                <li><a href="./lunch.html">Lunch</a></li>
+                <li><a href="./dinner.html">Dinner</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" >
+            </a>
+        </p>
+
+    <!--Code for the featured recipe-->
+    <section class="recipe_cards">
+        <h2>Featured Recipe</h2>
+        <div class="recipe_cards">
+            <img src="./img/eggs.jpg" alt="picture of eggs">
+            <h3>Sunny Side Up Eggs</h3>
+            <p>Start your morning on a sunny note with our perfect Sunny Side Up Eggs recipe! These golden, 
+                gently fried eggs are a breakfast classic that never goes out of style. With a crispy, lacy edge and a silky, 
+                runny yolk, they're the epitome of morning comfort. 
+                A dash of salt and pepper is all you need to enhance the natural flavors of these sunny delights. 
+                Whether served on a buttery toast or as a protein-packed addition to your favorite breakfast spread, 
+                these eggs are a simple yet satisfying way to kickstart your day.</p>
+            <a href="./breakfast.html">Go to recipe</a>
+        </div>
+    </section>
+
+    <!--Code for the recipe sections that will lead to the other pages of the website-->
+    <section class="recipe_list">
+        <div class="recipe_cards">
+            <img src="./img/burger.jpg" alt="picture of a burger">
+            <h3>Burger Recipe</h3>
+            <p>Indulge in burger bliss with our mouthwatering recipe that elevates the classic burger to new heights! Juicy, 
+                perfectly seasoned beef patties meet a symphony of fresh ingredients, from crisp lettuce and ripe tomatoes to creamy, 
+                melted cheese. Served on a toasted bun and accompanied by a secret sauce that'll leave your taste buds dancing, 
+                this burger is the ultimate temptation for your next meal.</p>
+            <a href="./lunch.html">Go to recipe</a>
+        </div>
+        <div class="recipe_cards">
+            <img src="./img/ice_cream.jpg" alt="picture of triple scoop ice cream">
+            <h3>Home Made Triple Scoop Ice Cream</h3>
+            <p>Dive into a world of sweet delight with our delectable ice cream sundae recipe! Creamy scoops of premium ice cream, 
+                adorned with a decadent drizzle of rich hot fudge, are the stars of this irresistible dessert. 
+                Topped with a mountain of whipped cream, a sprinkle of crunchy nuts, and a cherry on top, 
+                this sundae is pure bliss in a bowl. Perfect for any occasion or simply to satisfy your sweet cravings, 
+                this recipe is the ultimate treat for ice cream lovers.</p>
+            <a href="./dinner.html">Go to recipe</a>
+        </div>
+    </section>
+
+    <!--Code for the footer of the website-->
+    <footer>
+        <p>&copy; 2023 Bobby Feliz Recipes</p>
+    </footer>
+</body>
+</html>

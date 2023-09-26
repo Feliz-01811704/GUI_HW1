@@ -1,0 +1,193 @@
+/*Sets styling for the background as well as the text*/
+body {
+    background-color:#f5f5f5;
+    color:#333;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Styles the header elements*/
+header {
+    background-color: #333;
+    color: #fff;
+    text-align:center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display:inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:#fff;
+}
+
+/*Styles the featured recipe section of the website*/
+.featured_recipe {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/*Styles the recipe snippet class of the website*/
+img{
+    max-width:30%;
+    border-radius: 8px;
+}
+.recipe_snippet a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/*Changes the color of the links on hover*/
+.recipe_snippet a:hover {
+    background-color: #555;
+}
+
+/*Styling for the individual recipe cards*/
+.recipe_cards {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+
+.recipe_cards img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.recipe_cards h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.recipe_cards p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.recipe_cards a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/*Changes the color of the links on hover*/
+.recipe_cards a:hover {
+    background-color: #555;
+}
+
+/*Styles the recipe list*/
+.recipe_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    text-align: center;
+    color: #333;
+}
+
+/*Footer styling that matches the header*/
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/*code for if anything needs to be centered*/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    display: block
+}
+
+/* Style the ordered list and table */
+ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style table header (th) */
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style table rows (td) */
+td {
+    background-color: #f5f5f5;
+}
+
+/* Add some margin to the bottom of the table */
+table {
+    margin-bottom: 20px;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+}
+
+section ol {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+section ol li {
+    font-size: 16px;
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+}
